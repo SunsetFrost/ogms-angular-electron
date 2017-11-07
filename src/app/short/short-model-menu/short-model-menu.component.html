@@ -1,0 +1,33 @@
+<aside class="main-sidebar">
+
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+
+    <form class="sidebar-form">
+      <div >
+        <input type="text" name="q" class="form-control" placeholder="起始站点">
+      </div>
+    </form>
+    <form action="#" method="get" class="sidebar-form">
+      <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="结束站点">
+        <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+        </span>
+      </div>
+    </form>
+
+    <!-- Sidebar Menu -->
+    <ul class="sidebar-menu tree" data-widget="tree">
+      <li class="header">路径查询结果</li>
+      <!-- Optionally, you can add icons to the links -->
+      <li ><a href="javascript:;" (click)="nav('service')"><i class="fa fa-cloud"></i> <span>326路 -> 23路 -> 95路</span></a></li>
+      <li ><a href="javascript:;" (click)="nav('file')"><i class="fa fa-cloud"></i> <span>326路 -> 23路 -> 95路</span></a></li>
+      <li ><a href="javascript:;" (click)="nav('tool')"><i class="fa fa-cloud"></i> <span>326路 -> 23路 -> 95路</span></a></li>
+
+    </ul>
+    <!-- /.sidebar-menu -->
+  </section>
+  <!-- /.sidebar -->
+</aside>
